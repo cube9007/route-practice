@@ -1,0 +1,56 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    line-height: 20%;
+}
+.common-div {
+    text-align: center;
+}
+.common-p {
+    font-size: 18px;
+}
+.common-p2 {
+    font-weight: bold;
+    font-size: 16px;
+}
+ul {
+    list-style: none;
+    li {
+        display: flex;
+        align-items: center;
+    }
+}
+.common-box {
+    margin: 100px;
+}
+.common-box2,
+.common-box3 {
+    border: 1px solid #ccc;
+    border-radius: 15px; 
+    margin-bottom: 50px;
+}
+.common-box2 {
+    display: flex; 
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+.big-div {
+    background: $primary;
+    border: 1px solid rgb(0,0,0,0);
+    padding-left: 30px;
+    height: 75px;
+    display: flex;
+    align-items: center;
+    h1 {
+        color:white;
+    }
+    a {
+        color:white;
+    }
+}

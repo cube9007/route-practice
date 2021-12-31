@@ -1,0 +1,40 @@
+.m-icon {
+    padding: 10px;
+}
+.icon-div {
+    display: flex;
+    align-items: center;
+    margin-right: 30px;
+}
+.icon-box-2group,
+.icon-onebox {
+    display: flex;
+    flex-grow: 1;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.icon-onebox {
+    width: 500px;
+    padding: 15px;
+}
+
+@each $title, $color in $iconColor {
+    .icon-#{$title} {
+        width: 30px;
+        height: 24px;
+        border-radius: 3px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-right: 15px;    
+        background: $color;
+    }
+}
+.con-icon {
+    color:white;
+}
+.icon-p {
+    margin-left: 10px;
+    color: $gray_light;
+    font-size: 14px;
+}
