@@ -1,1 +1,8 @@
-# route-practice
+# How to use
+
+```
+
+npm i
+npm start
+
+```
